@@ -3,11 +3,9 @@ import React from "react";
 // Styles
 import "../assets/css/index.html";
 import "../assets/css/demandas.css";
-
+import { popLoginForm } from "../utils/form";
 
 export const Demandas = () => {
-  const popLoginForm = (e: any) => {};
-
   return (
     <>
       <div>
@@ -31,7 +29,7 @@ export const Demandas = () => {
               <div className="access-list">
                 <button
                   id="btnPopLogin"
-                  onClick={popLoginForm(this)}
+                  onClick={() => popLoginForm(this)}
                   className="btn border-secondary color-secondary"
                   style={{ width: 135 }}
                 >

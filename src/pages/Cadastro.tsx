@@ -7,8 +7,8 @@ import officeBuilding from "assets/img/office-building.png";
 import school from "assets/img/school.png";
 
 // Style
-import '../assets/css/cadastro.css';
-import '../assets/css/index.css';
+import "../assets/css/cadastro.css";
+import "../assets/css/index.css";
 
 export const Cadastro = () => {
   return (

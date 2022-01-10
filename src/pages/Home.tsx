@@ -1,6 +1,7 @@
 import React from "react";
 
 import "../assets/css/global.css";
+import { popLoginForm } from "../utils/form";
 
 export const Home: React.FC = () => {
   return (
@@ -25,7 +26,7 @@ export const Home: React.FC = () => {
             <div className="access-list">
               <button
                 id="btnPopLogin"
-                onClick={() => console.log("popLoginForm(this)")}
+                onClick={() => popLoginForm(this)}
                 className="btn border-secondary color-secondary"
                 style={{ width: "135px" }}
               >
@@ -83,26 +84,38 @@ export const Home: React.FC = () => {
         </div>
         <div
           className="contributors"
-          style={{ backgroundImage: "url(img/Rectangle.png)" }}
+          style={{ backgroundImage: "url(../assets/img/Rectangle.png)" }}
         >
           <div className="imgs">
             <div
-              style={{ backgroundImage: "url(contributors/image2.png)" }}
+              style={{
+                backgroundImage: "url(../assets/contributors/image2.png)",
+              }}
             ></div>
             <div
-              style={{ backgroundImage: "url(contributors/image3.png)" }}
+              style={{
+                backgroundImage: "url(../assets/contributors/image3.png)",
+              }}
             ></div>
             <div
-              style={{ backgroundImage: "url(contributors/image4.png)" }}
+              style={{
+                backgroundImage: "url(../assets/contributors/image4.png)",
+              }}
             ></div>
             <div
-              style={{ backgroundImage: "url(contributors/image5.png)" }}
+              style={{
+                backgroundImage: "url(../assets/contributors/image5.png)",
+              }}
             ></div>
             <div
-              style={{ backgroundImage: "url(contributors/image6.png)" }}
+              style={{
+                backgroundImage: "url(../assets/contributors/image6.png)",
+              }}
             ></div>
             <div
-              style={{ backgroundImage: "url(contributors/image7.png)" }}
+              style={{
+                backgroundImage: "url(../assets/contributors/image7.png)",
+              }}
             ></div>
           </div>
         </div>
